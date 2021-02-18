@@ -1,0 +1,66 @@
+{
+  "name": "reward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -w",
+    "build": "webpack --mode production",
+    "build-babel": "babel --out-dir build src",
+    "dev": "nodemon --exec server.js",
+    "sass": "node-sass src/public/sass/style.scss src/public/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbhaai/reward.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderbhaai/reward/issues"
+  },
+  "homepage": "https://github.com/coderbhaai/reward#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "ckeditor4-react": "^1.3.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-id-swiper": "^3.0.0",
+    "react-share": "^4.3.1",
+    "reactstrap": "^8.8.0",
+    "semantic-ui-react": "^2.0.1",
+    "sweetalert": "^2.1.2",
+    "swiper": "^5.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  }
+}
